@@ -1,8 +1,8 @@
 'use strict';
 
 var gulp = require('gulp');
-var ravencoreTasks = require('ravencore-build');
+var myntcoreTasks = require('myntcore-build');
 
-ravencoreTasks('message');
+myntcoreTasks('message');
 
 gulp.task('default', ['lint', 'coverage']);

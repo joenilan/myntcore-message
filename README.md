@@ -1,29 +1,29 @@
-# Ravencoin Message Verification and Signing for Ravencore
+# Myntcoin Message Verification and Signing for Myntcore
 
 
 
 
-ravencore-message adds support for verifying and signing ravencoin messages in [Node.js](http://nodejs.org/) and web browsers.
+myntcore-message adds support for verifying and signing myntcoin messages in [Node.js](http://nodejs.org/) and web browsers.
 
-See [the main ravencore repo](https://github.com/underdarkskies/ravencore) for more information.
+See [the main myntcore repo](https://github.com/joenilan/myntcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install ravencore-message
+npm install myntcore-message
 ```
 
 ```sh
-bower install ravencore-message
+bower install myntcore-message
 ```
 
 To sign a message:
 
 ```javascript
-var ravencore = require('ravencore-lib');
-var Message = require('ravencore-message');
+var myntcore = require('myntcore-lib');
+var Message = require('myntcore-message');
 
-var privateKey = ravencore.PrivateKey.fromWIF('5K2DxqJ9kLFL3hF3KEWDftAig3TyAXenDxpr27PaLBieuSFo5PQ');
+var privateKey = myntcore.PrivateKey.fromWIF('5K2DxqJ9kLFL3hF3KEWDftAig3TyAXenDxpr27PaLBieuSFo5PQ');
 var signature = Message('hello, world').sign(privateKey);
 ```
 
@@ -37,8 +37,8 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/underdarkskies/ravencore/blob/master/CONTRIBUTING.md) on the main ravencore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/joenilan/myntcore/blob/master/CONTRIBUTING.md) on the main myntcore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/underdarkskies/ravencore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/joenilan/myntcore/blob/master/LICENSE).
