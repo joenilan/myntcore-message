@@ -1,9 +1,9 @@
-# Myntcoin Message Verification and Signing for Myntcore
+# Mynt Message Verification and Signing for Myntcore
 
 
 
 
-myntcore-message adds support for verifying and signing myntcoin messages in [Node.js](http://nodejs.org/) and web browsers.
+myntcore-message adds support for verifying and signing mynt messages in [Node.js](http://nodejs.org/) and web browsers.
 
 See [the main myntcore repo](https://github.com/joenilan/myntcore) for more information.
 

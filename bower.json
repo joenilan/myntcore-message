@@ -6,12 +6,12 @@
   "authors": [
     "BitPay"
   ],
-  "description": "Myntcoin Message Verification and Signing for myntcore",
+  "description": "Mynt Message Verification and Signing for myntcore",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "myntcoin",
+    "mynt",
     "myntcore",
     "btc",
     "satoshi",
